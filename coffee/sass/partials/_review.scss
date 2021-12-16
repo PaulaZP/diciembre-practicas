@@ -1,0 +1,23 @@
+.review {
+  .review__cards {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .review__cards-info {
+    border: 0.1rem solid $gray-light;
+    padding: 1rem;
+
+    p {
+      line-height: 1.5rem;
+    }
+
+    :nth-child(3n) {
+      border-radius: 100%;
+      width: 20%;
+    }
+  }
+}

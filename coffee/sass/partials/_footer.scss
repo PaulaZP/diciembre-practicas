@@ -1,0 +1,26 @@
+.footer {
+  background-color: $gray;
+  padding: 1.5rem;
+  margin-top: 1rem;
+
+  .footer__menu {
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+    flex-wrap: wrap;
+
+
+    a {
+      color: $white;
+      background-color: $gray;
+      border: 0.1rem solid $gray-light-2;
+      padding: 0.4rem 1rem;
+    }
+  }
+
+  .footer__copyrigth {
+    text-align: center;
+    padding-top: 1rem;
+    line-height: 1.5rem;
+  }
+}

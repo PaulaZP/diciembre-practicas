@@ -1,0 +1,14 @@
+.menu {
+  .menu__card {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .menu__card-info{
+    border: 0.1rem solid $gray-light;
+    padding: 1.5rem;
+  }
+}
