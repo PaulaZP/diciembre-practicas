@@ -1,8 +1,10 @@
 .about {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: left;
+  .about__box {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+  }
 
   .about__images {
     align-items: center;
@@ -18,6 +20,22 @@
 
     p {
       line-height: 1.5rem;
+    }
+  }
+
+  @media (min-width: 50rem) {
+    .about__box {
+      flex-direction: row;
+      background-color: $gray;
+      padding: 1rem 0;
+    }
+
+    .about__images {
+      width: 50%;
+    }
+
+    .about__info {
+      width: 50%;
     }
   }
 }

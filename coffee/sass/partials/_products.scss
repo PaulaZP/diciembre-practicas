@@ -5,10 +5,19 @@
     text-align: center;
     flex-direction: column;
     gap: 1rem;
+
+    @media (min-width: 50rem) {
+      flex-direction: row;
+      justify-content: center;
+    }
   }
 
   .products__cards-info {
     border: 0.1rem solid $gray-light;
     padding: 1.5rem;
+
+    @media (min-width: 50rem) {
+      width: 100%;
+    }
   }
 }

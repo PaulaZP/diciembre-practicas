@@ -12,57 +12,65 @@
 <body>
   <main class="wrapper">
     <header class="header">
-      <article class="header__logo">
-        <img src="img/logo.png" alt="cafeteria cafena">
-      </article>
+      <section class="header__box wrapper-second">
+        <article class="header__logo">
+          <img src="img/logo.png" alt="cafeteria cafena">
+        </article>
 
-      <nav class="header__menu-mobile">
-        <input type="checkbox" id="check">
+        <nav class="header__menu-mobile">
+          <input type="checkbox" id="check">
 
-        <label for="check" class="lbl-menu">
-            <span id="spn1"></span>
-            <span id="spn2"></span>
-            <span id="spn3"></span>
-        </label>
-      </nav>
+          <label for="check" class="lbl-menu">
+              <span id="spn1"></span>
+              <span id="spn2"></span>
+              <span id="spn3"></span>
+          </label>
+        </nav>
 
-      <nav class="header__menu">
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Menu</a></li>
-          <li><a href="#">Products</a></li>
-          <li><a href="#">Review</a></li>
-          <li><a href="#">Contact</a></li>
-          <li><a href="#">Blog</a></li>
-        </ul>
-      </nav>
+        <nav class="header__menu">
+          <ul>
+            <li><a href="#banner">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#review">Review</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#blogs">Blog</a></li>
+          </ul>
+        </nav>
+      </section>
     </header>
 
-    <section class="banner">
-      <h1>FRESH COFFEE IN THE MORNING</h1>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, culpa?</p>
-      <a href="#" target="_blanck">Get Yours Now</a>
+    <section id="banner" class="banner">
+      <section class="banner__box wrapper-second">
+        <h1>FRESH COFFEE IN THE MORNING</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, culpa?</p>
+        <a href="#" target="_blanck">Get Yours Now</a>
+      </section>
     </section>
 
-    <section class="about">
+    <section id="about" class="about wrapper-second">
       <h2><span class="color--beige">About </span>Us</h2>
 
-      <article class="about__images">
-        <img src="img/about-img.jpeg" alt="delicioso cafe especial servido en una taza elegante de color negro con un particular aroma del 100% grano entero">
-      </article>
+      <section class="about__box">
+        <article class="about__images">
+          <img src="img/about-img.jpeg" alt="delicioso cafe especial servido en una taza elegante de color negro con un particular aroma del 100% grano entero">
+        </article>
 
-      <article class="about__info">
-        <h3>What Makes Our Coffee Special?</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde a totam deserunt voluptatem incidunt natus delectus, at eum animi provident!</p>
+        <article class="about__info">
+          <h3>What Makes Our Coffee Special?</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde a totam deserunt voluptatem incidunt natus delectus, at eum animi provident!</p>
 
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia perferendis temporibus deleniti nam, atque asperiores incidunt consequuntur iure nostrum velit.</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia perferendis temporibus deleniti nam, atque asperiores incidunt consequuntur iure nostrum velit.</p>
 
-        <button>Learn More</button>
-      </article>
+          <button>Learn More</button>
+        </article>
+      </section>
+
+
     </section>
 
-    <section class="menu">
+    <section id="menu" class="menu wrapper-second">
       <h2>Our <span class="color--beige">Menu</span></h2>
 
       <section class="menu__card">
@@ -104,7 +112,7 @@
       </section>
     </section>
 
-    <section class="products">
+    <section id="products" class="products wrapper-second">
       <h2>Our <span class="color--beige">Products</span></h2>
 
       <section class="products__cards">
@@ -128,7 +136,7 @@
       </section>
     </section>
 
-    <section class="review">
+    <section id="review" class="review wrapper-second">
       <h2>CUSTOMER'S <span class="color--beige">REVIEW</span></h2>
 
       <section class="review__cards">
@@ -155,12 +163,12 @@
       </section>
     </section>
 
-    <section class="contact">
-      <h2><span class="color--beige">Contact</span>Us</h2>
+    <section id="contact" class="contact wrapper-second">
+      <h2><span class="color--beige">Contact</span> Us</h2>
 
       <section class="contact__info">
         <article class="contact__info-map">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15722.42825863311!2d-84.06959515286283!3d9.883295304846303!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fa0e302b63dee69%3A0xe033a242e664bf2b!2sCerezas%20de%20caf%C3%A9!5e0!3m2!1ses!2scr!4v1638924796148!5m2!1ses!2scr" width="100%" height="auto" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15722.42825863311!2d-84.06959515286283!3d9.883295304846303!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fa0e302b63dee69%3A0xe033a242e664bf2b!2sCerezas%20de%20caf%C3%A9!5e0!3m2!1ses!2scr!4v1638924796148!5m2!1ses!2scr" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         </article>
 
         <article class="contact__info-form">
@@ -181,7 +189,7 @@
       </section>
     </section>
 
-    <section class="blogs">
+    <section id="blogs" class="blogs wrapper-second">
       <h2>Our <span class="color--beige">Blogs</span></h2>
 
       <section class="blogs__cards">

@@ -5,6 +5,11 @@
     gap: 1rem;
     justify-content: center;
     text-align: center;
+
+    @media (min-width: 50rem) {
+      flex-direction: row;
+      justify-content: center;
+    }
   }
 
   .review__cards-info {

@@ -5,6 +5,11 @@
     flex-direction: column;
     gap: 1rem;
     text-align: left;
+
+    @media (min-width: 50rem) {
+      flex-direction: row;
+      justify-content: center;
+    }
   }
 
   .blogs__cards-info {
